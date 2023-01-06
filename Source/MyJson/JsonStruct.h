@@ -17,13 +17,14 @@ public:
 //atomic은 항상 하나의 단위로 직렬화??
 //blueprinttype은 이구조체가 블루프린트에서 사용가능
 USTRUCT(Atomic,BlueprintType)
-struct CustomStruct
+struct FCustomStruct
 {
 	GENERATED_USTRUCT_BODY()
 public:
-	UPROPERTY(EditAnywhere,)
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	AActor* actor;
 	
+	UPROPERTY(EditAnywhere,BlueprintReadWrite)
 	FString Name;
 
 
