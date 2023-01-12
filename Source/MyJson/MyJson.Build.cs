@@ -18,6 +18,6 @@ public class MyJson : ModuleRules
 		// Uncomment if you are using online features
 		// PrivateDependencyModuleNames.Add("OnlineSubsystem");
 
-		// To include OnlineSubsystemSteam, add it to the plugins section in your uproject file with the Enabled attribute set to true
+		// To include OnlineSubsystemSteam, a8dd it to the plugins section in your uproject file with the Enabled attribute set to true
 	}
 }
